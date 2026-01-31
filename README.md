@@ -1,4 +1,4 @@
-# Zero AI (AI Assistant Connector)
+# Flutter AI Connector
 
 **Zero AI** is a premium, unified Flutter interface for integrating AI Assistants (OpenAI, Gemini, Groq) into your application with minimal effort. It features a modern "Tech" UI, Lottie animations, Voice Interaction (TTS/STT), and Multi-modal support (Images/Files).
 

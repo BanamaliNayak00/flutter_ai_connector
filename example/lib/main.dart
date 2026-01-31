@@ -1,4 +1,4 @@
-import 'package:ai_assistant_connector/ai_assistant_connector.dart';
+import 'package:flutter_ai_connector/flutter_ai_connector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Zero AI',
+      title: 'Flutter AI Connector',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
@@ -56,7 +56,10 @@ class ChatScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Zero AI"), centerTitle: true),
+      appBar: AppBar(
+        title: const Text("Flutter AI Connector"),
+        centerTitle: true,
+      ),
       extendBodyBehindAppBar: true,
       body: AIAssistantView(
         config: config,

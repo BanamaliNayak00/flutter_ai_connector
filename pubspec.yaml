@@ -1,7 +1,7 @@
-name: ai_assistant_connector
+name: flutter_ai_connector
 description: A unified Flutter interface for AI Assistants (OpenAI, Gemini, Groq) with Lottie and Voice support.
 version: 0.0.1
-homepage: https://github.com/example/ai_assistant_connector
+homepage: https://github.com/BanamaliNayak00/flutter_ai_connector
 
 environment:
   sdk: ^3.9.2
