@@ -197,7 +197,7 @@ class _AIAssistantViewContentState extends State<_AIAssistantViewContent> {
       child: Column(
         children: [
           // Top Bar - Removed speaker as requested.
-          // Padding for status bar if needed, but AppBar title handles "Zero AI".
+          // Padding for status bar if needed.
           // We need space for the Lottie animation below the AppBar.
           const SizedBox(height: 100),
 

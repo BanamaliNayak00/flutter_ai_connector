@@ -1,13 +1,13 @@
 # Flutter AI Connector
 
-**Zero AI** is a premium, unified Flutter interface for integrating AI Assistants (OpenAI, Gemini, Groq) into your application with minimal effort. It features a modern "Tech" UI, Lottie animations, Voice Interaction (TTS/STT), and Multi-modal support (Images/Files).
+**Flutter AI Connector** is a premium, unified Flutter interface for integrating AI Assistants (OpenAI, Gemini, Groq) into your application with minimal effort. It features a modern "Tech" UI, Lottie animations, Voice Interaction (TTS/STT), and Multi-modal support (Images/Files).
 
 ---
 
 ## Features
 
 *   **Unified AI Interface**: Switch between OpenAI, Gemini, and Groq providers easily.
-*   **Premium UI**: "Zero AI" dark tech theme with gradients, glassmorphism, and polished animations.
+*   **Premium UI**: Dark tech theme with gradients, glassmorphism, and polished animations.
 *   **Voice Interaction**:
     *   **Speech-to-Text**: Voice input for chatting.
     *   **Text-to-Speech**: Manual playback of AI responses.
@@ -83,7 +83,7 @@ class MyChatScreen extends StatelessWidget {
     );
 
     return Scaffold(
-      appBar: AppBar(title: Text("Zero AI")),
+      appBar: AppBar(title: Text("Flutter AI Connector")),
       // 2. Use the View
       body: AIAssistantView(
         config: config,
